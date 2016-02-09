@@ -1,0 +1,316 @@
+@font-face {
+font-family: Lato;
+src: url("fonts/lato/Lato-Italic.ttf") format("opentype");
+}
+
+body,article, aside, footer, header, hgroup, main, menu, section {
+    display: block;
+		margin: 0;
+		padding: 0;
+}
+
+.container{
+  width: 100% !important;
+  padding-right: 0px !important;
+  padding-left: 0 !important;
+	background-image: url('images/desktop_background.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #FFF !important;
+}
+
+main{
+	width: 65%;
+  height: 100%;
+	float: right;
+}
+
+.contact {
+	position: absolute;
+	float: left;
+	width: 20%;
+	top: 0px;
+	bottom: 0px;
+	background: linear-gradient(transparent 14%, #020202 69%);
+	height: 100%;
+	left: 4%;
+}
+
+.contact > h2{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 45%;
+  position: relative;
+}
+
+footer{
+  background: #FFF;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  color: #000;
+  font-family: serif;
+}
+
+footer > h5{
+	float: right;
+  margin-right: 17px;
+  font-size: 12px;
+}
+
+h5#note{
+  position: absolute;
+  bottom: 35px;
+  font-size: 11px;
+  right: 20px;
+}
+
+form{
+	    text-align: center;
+}
+
+h5{
+		display: inline-flex;
+}
+
+.offer{
+      line-height: 1;
+      margin-top: 2%;
+      height: 10%;
+    }
+
+.offer > h5{
+	position: absolute;
+	bottom: 35px;
+	font-size: 11px;
+	right: 20px;
+}
+
+#slogan{
+  font-family: lato;
+  position: relative;
+  right: 11%;
+  text-align: center;
+  margin-top: 3%;
+}
+
+#slogan > h1{
+  font-size: 51px;
+}
+.main-content{
+  position: relative;
+  text-align: center;
+  top: 52%;
+}
+
+.main-content > section > h3{
+	font-size: 18px;
+}
+
+.main-content > section > p{
+  font-size: 18px;
+  line-height: 0.9;
+}
+#starting-price{
+  font-size: 24px;
+  float: right;
+  margin-right: 27%;
+}
+
+#starting-price > span {
+    font-size: 45px;
+}
+
+#funding{
+  font-size: 24px;
+      text-align: right;
+      margin-right: 53%;
+}
+
+.logo{
+  position: relative;
+  top: 4%;
+  height: 17%;
+  background-image: url('images/infiniti-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+input[type="text"], input[type="email"] {
+    margin-bottom: 9px;
+		width: 85%;
+    height: 4%;
+}
+
+input[type="checkbox"]{
+	float: right;
+	margin-right: 20px;
+}
+
+
+input[type="submit"] {
+  float: left;
+      margin-left: 8%;
+      width: 33%;
+      padding: 3%;
+      background: #694773;
+      border: none;
+      border-radius: 5%;
+      margin-top: 3%;
+}
+
+input#user_first_name {
+    margin-right: 20px;
+        margin-top: 3%;
+}
+
+label {
+  width: 45%;
+  font-size: 16px;
+  direction: rtl;
+  text-align: right;
+      margin-top: 3%;
+}
+
+span.rank-9, span.rank-8 {
+		  background: blueviolet;
+      background-color: #f5ea20;
+	    width: 13px;
+	    text-align: center;
+	    margin-right: 4px;
+	    margin-left: 6px;
+}
+
+span.rank-9{
+  background-color: #fcc80d;
+}
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    direction: rtl;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1600px) {
+   #slogan > h1{
+     font-size: 49px;
+   }
+   .main-content {
+    top: 48%;
+  }
+ }
+ @media screen and (max-width: 1366px) {
+   #slogan > h1 {
+     font-size: 40px;
+   }
+  }
+
+  @media screen and (max-width: 1290px) {
+    #slogan > h1 {
+      font-size: 36px;
+    }
+    .main-content > section > p {
+    font-size: 15px;
+}
+   }
+ @media only screen and (max-width : 979px) {
+   #slogan > h1 {
+     font-size: 31px;
+   }
+ }
+
+ @media only screen and (max-width : 767px) {
+   #slogan > h1 {
+       font-size: 26px;
+   }
+ }
+ @media only screen and (min-width : 767px) {
+   #note-mobile{
+     display: none;
+   }
+   #funding-mobile{
+     display: none;
+   }
+ }
+ @media only screen and (max-width : 568px) {
+   #slogan{
+     width: 70%;
+     left: 30%;
+   }
+   #slogan > h1 {
+       font-size: 20px;
+   }
+
+   main{
+     width: 100%;
+   }
+   .main-content {
+    top: 23%;
+    float: right;
+    width: 100%;
+  }
+  #starting-price{
+    float: none !important;
+    margin-right: 0;
+  }
+  #funding {
+      font-size: 18px;
+      margin-right: 9%;
+  }
+  input[type="text"], input[type="email"] {
+      height: 13%;
+  }
+  .contact {
+    position: absolute;
+    width: 100%;
+    height: 34%;
+    top: 23%;
+    left: 0;
+    background: none;
+}
+.contact > h2 {
+    margin-top: 39%;
+}
+input[type="submit"] {
+    width: 41%;
+}
+label {
+    width: 39%;
+}
+#note{
+  display: none;
+}
+#note-mobile{
+  position: absolute;
+  bottom: 35px;
+  font-size: 11px;
+  right: 20px;
+  text-align: right;
+}
+.main-content > section > p{
+  display: none;
+}
+#funding{
+  display: none;
+}
+
+ }
+ @media only screen and (max-width : 480px) {
+   #slogan > h1 {
+     font-size: 22px;
+   }
+   .container{
+     background-image: url('images/mobile_background.png');
+   }
+   .main-content > section > p{
+     display: none;
+   }
+ }
+
+ @media only screen and (max-width : 320px) {
+   #slogan > h1 {
+       font-size: 17px;
+   }
+ }

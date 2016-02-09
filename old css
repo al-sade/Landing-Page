@@ -1,0 +1,177 @@
+@font-face {
+font-family: Lato;
+src: url("fonts/lato/Lato-Italic.ttf") format("opentype");
+}
+
+body,article, aside, footer, header, hgroup, main, menu, section {
+    display: block;
+		margin: 0;
+		padding: 0;
+}
+
+body{
+	background-image: url('images/desktop_background.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #FFF !important;
+}
+
+main{
+	width: 65%;
+	float: right;
+}
+
+aside {
+	position: absolute;
+	float: left;
+	width: 20%;
+	top: 0px;
+	bottom: 0px;
+	background: linear-gradient(transparent 14%, #020202 69%);
+	height: 100%;
+	left: 4%;
+}
+
+aside > h2{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 45%;
+  position: relative;
+}
+
+footer{
+  background: #FFF;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  color: #000;
+  font-family: serif;
+}
+
+footer > h5{
+	float: right;
+  margin-right: 17px;
+  font-size: 12px;
+}
+
+form{
+	    text-align: center;
+}
+
+h5{
+		display: inline-flex;
+}
+
+
+
+#slogan{
+  font-family: lato;
+  width: 40%;
+  position: absolute;
+  left: 43%;
+  top: 2%;
+  text-align: center;
+}
+
+#slogan > h1{
+  font-size: 45px;
+}
+.main-content{
+	position: absolute;
+  bottom: 14%;
+  right: 14%;
+	text-align: center;
+}
+
+.main-content > h3{
+	font-size: 18px;
+}
+
+.main-content > p{
+  font-size: 18px;
+  line-height: 1.2;
+}
+#starting-price{
+  position: absolute;
+  bottom: 8%;
+  right: 17%;
+  font-size: 24px;
+}
+
+#starting-price > span {
+    font-size: 45px;
+}
+
+#funding{
+  position: absolute;
+  bottom: 9%;
+  right: 35%;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.logo{
+  position: relative;
+  top: 4%;
+  height: 17%;
+  background-image: url('images/infiniti-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+input[type="text"], input[type="email"] {
+    margin-bottom: 9px;
+		width: 85%;
+    height: 4%;
+}
+
+input[type="checkbox"]{
+	float: right;
+	margin-right: 20px;
+}
+
+
+input[type="submit"] {
+  float: left;
+      margin-left: 8%;
+      width: 33%;
+      padding: 3%;
+      background: #694773;
+      border: none;
+      border-radius: 5%;
+      margin-top: 3%;
+}
+
+input#user_first_name {
+    margin-right: 20px;
+        margin-top: 3%;
+}
+
+label {
+  width: 45%;
+  font-size: 16px;
+  direction: rtl;
+  text-align: right;
+      margin-top: 3%;
+}
+
+span.rank-9, span.rank-8 {
+		  background: blueviolet;
+      background-color: #f5ea20;
+	    width: 13px;
+	    text-align: center;
+	    margin-right: 4px;
+	    margin-left: 6px;
+}
+
+span.rank-9{
+  background-color: #fcc80d;
+}
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    direction: rtl;
+    font-size: 18px;
+}
